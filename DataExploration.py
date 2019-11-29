@@ -62,8 +62,9 @@ def show_breed(breed_name, num_of_imgs):
     cv2.destroyAllWindows()
 
 
-# train_data_size()
-# class_histogram()
-# dimentions_histogram(r'C:\Users\micha\PycharmProjects\DLWorkShopAss1\dog-breed-identification\test')
+# easy to see difference in breed
 show_breed('scottish_deerhound',5)
 show_breed('japanese_spaniel',5)
+# hard to see difference in breed
+show_breed('german_shepherd',5)
+show_breed('malinois',5)
